@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Damian Kaplewski - front-end developer & designer</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/main.css">
+		<link rel="stylesheet" href="css/normalize.css">
+    </head>
+    <body>
+	<div class="wrapper">
+		<section id="header">
+			<h1 class="anim-text">Damian <span class="header__text-thin">Kaplewski</span></h1>
+		</section>
+		<nav class="menu icon">
+			<ul>
+					<a href="https://github.com/damiankaplewski"><li><i class="fa fa-github-alt fa-2x icon" aria-hidden="true"></i>/damiankaplewski</li></a>
+					<a href="https://github.com/damiankaplewski"><li><i class="fa fa-behance fa-2x icon" aria-hidden="true"></i>/dkaplewski</li></a>
+					<a href="https://github.com/damiankaplewski"><li><i class="fa fa-linkedin fa-2x icon" aria-hidden="true"></i>/damiankaplewski</li></a>
+					<a href="mailto:kontakt@kaplewski.pl"><li><i class="fa fa-envelope fa-2x icon" aria-hidden="true"></i>kontakt@kaplewski.pl</li></a>
+			</ul>
+		</nav>
+	</div>
+
+	<script src="https://cdn.jsdelivr.net/scrollreveal.js/3.3.1/scrollreveal.min.js"></script>
+	<script>
+		window.sr = ScrollReveal();
+		sr.reveal('.anim-text', { duration: 3000, easing: 'cubic-bezier(0.6, 0.2, 0.1, 4)'});
+		sr.reveal('.icon', { duration: 2000, delay: 2000, easing: 'cubic-bezier(0.6, 0.2, 0.1, 8)'});
+	</script>
+	</body>
+</html>
